@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CB4F7CC-AAA6-4F10-85DF-2071B4F1BE25}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>admincajeros.My.MyApplication</StartupObject>
+    <RootNamespace>admincajeros</RootNamespace>
+    <AssemblyName>admincajeros</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Resources\caja.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/admincajeros/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>admincajeros.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>admincajeros.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="LibForms, Version=2.0.3.1538, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libformsv2\bin\LibForms.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.2.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\MySQL\MySQL Connector Net 5.2.7\Binaries\.NET 2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmgiftcard.Designer.vb">
+      <DependentUpon>frmgiftcard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmgiftcard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteCajero.Designer.vb">
+      <DependentUpon>frmReporteCajero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteCajero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreportegift.Designer.vb">
+      <DependentUpon>frmreportegift.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmreportegift.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptcortec.vb">
+      <DependentUpon>rptcortec.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptcorte.vb">
+      <DependentUpon>rptcorte.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="frmautorizacion.Designer.vb">
+      <DependentUpon>frmautorizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmautorizacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptgiftcard.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptgiftcard.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptsubretiros.vb">
+      <DependentUpon>rptsubretiros.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptbitacora.vb">
+      <DependentUpon>rptbitacora.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="dsreportes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsreportes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsreportes.vb">
+      <DependentUpon>dsreportes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmcorte.Designer.vb">
+      <DependentUpon>frmcorte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmcorte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.vb">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmenu.Designer.vb">
+      <DependentUpon>frmmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdeposito.Designer.vb">
+      <DependentUpon>frmdeposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmdeposito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmodificarfp.Designer.vb">
+      <DependentUpon>frmmodificarfp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmodificarfp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreportes.Designer.vb">
+      <DependentUpon>frmreportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmreportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmvisorreportes.Designer.vb">
+      <DependentUpon>frmvisorreportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmvisorreportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmretiro.Designer.vb">
+      <DependentUpon>frmretiro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmretiro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmodificarretiro.designer.vb">
+      <DependentUpon>frmmodificarretiro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmodificarretiro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mdprincipal.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="rptlogcambiofp.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptlogcambiofp.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptlogcambioretiro.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptlogcambioretiro.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptretiros.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptretiros.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmgiftcard.resx">
+      <DependentUpon>frmgiftcard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteCajero.resx">
+      <DependentUpon>frmReporteCajero.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreportegift.resx">
+      <DependentUpon>frmreportegift.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptcortec.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptcortec.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptcorte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptcorte.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmautorizacion.resx">
+      <DependentUpon>frmautorizacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptgiftcard.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptgiftcard.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptsubretiros.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptsubretiros.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptbitacora.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptbitacora.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcorte.resx">
+      <DependentUpon>frmcorte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmenu.resx">
+      <DependentUpon>frmmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdeposito.resx">
+      <DependentUpon>frmdeposito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmodificarfp.resx">
+      <DependentUpon>frmmodificarfp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreportes.resx">
+      <DependentUpon>frmreportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmvisorreportes.resx">
+      <DependentUpon>frmvisorreportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmretiro.resx">
+      <DependentUpon>frmretiro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmodificarretiro.resx">
+      <DependentUpon>frmmodificarretiro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptlogcambiofp.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptlogcambiofp.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptlogcambioretiro.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptlogcambioretiro.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptretiros.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptretiros.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grabar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deposito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsreportes.xsc">
+      <DependentUpon>dsreportes.xsd</DependentUpon>
+    </None>
+    <None Include="dsreportes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsreportes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsreportes.xss">
+      <DependentUpon>dsreportes.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\aceptarlogin.gif" />
+    <None Include="Resources\bitacora.png" />
+    <Content Include="Resources\caja.ico" />
+    <Content Include="Resources\fondo.png" />
+    <None Include="Resources\printer-24.png" />
+    <None Include="Resources\search-8-24.png" />
+    <None Include="Resources\search-8-16.png" />
+    <None Include="Resources\gift.png" />
+    <None Include="Resources\corte.png" />
+    <None Include="Resources\reporte.png" />
+    <None Include="Resources\reportes.ico" />
+    <None Include="Resources\salir.png" />
+    <None Include="Resources\cancelarlogin.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\modificarfp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_BuildVersioningStyle="None.None.Increment.TimeStamp" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_UpdateFileVersion="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

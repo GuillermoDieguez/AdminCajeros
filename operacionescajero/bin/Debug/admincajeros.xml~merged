@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+admincajeros
+</name>
+</assembly>
+<members>
+<member name="P:admincajeros.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:admincajeros.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:admincajeros.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtlogcambioretiroDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtlogcambiofpDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtretirosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtcorteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtlogcambioretiroRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtlogcambiofpRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtretirosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtcorteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtlogcambioretiroRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtlogcambiofpRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtretirosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:admincajeros.dsreportes.dtcorteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:admincajeros.dsreportes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

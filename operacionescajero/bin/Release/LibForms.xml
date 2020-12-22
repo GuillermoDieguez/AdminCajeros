@@ -1,0 +1,147 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LibForms
+</name>
+</assembly>
+<members>
+<member name="M:LibForms.FuncionesForms.LlenarCombo(System.String,System.Windows.Forms.ComboBox@,MySql.Data.MySqlClient.MySqlConnection)">
+	<summary>
+ Llena un combobox segun el query enviado como parametro
+ </summary>
+	<param name="query">Query para sacar datos, al combobox se ingresa el primer elemento del query</param>
+	<param name="combobox">Combobox a llenar</param>
+	<param name="conexion">Conexion a la base de datos</param>
+	<remarks>Se maneja internamente el estado de la conexion para optimizarla</remarks>
+</member><member name="M:LibForms.FuncionesForms.LlenarDataset(System.String,MySql.Data.MySqlClient.MySqlConnection)">
+	<summary>
+ Llena un dataset segun el query enviado como parametro
+ </summary>
+	<param name="squery">Query para sacar datos</param>
+	<param name="conexion">Conexion a la base de datos</param>
+	<returns>Dataset con datos en la tabla 0</returns>
+	<remarks>Se maneja internamente el estado de la conexion para optimizarla</remarks>
+</member><member name="M:LibForms.FuncionesForms.LlenarDatatable(System.String,MySql.Data.MySqlClient.MySqlConnection)">
+	<summary>
+ Llena una datatable segun el query enviado como parametro
+ </summary>
+	<param name="squery">Query para sacar datos</param>
+	<param name="conexion">Conexion a la base de datos</param>
+	<returns>Datable con los datos obtenidos</returns>
+	<remarks>Se maneja internamente el estado de la conexion para optimizarla</remarks>
+</member><member name="M:LibForms.FuncionesForms.DevuelveDato(System.String,MySql.Data.MySqlClient.MySqlConnection)">
+	<summary>
+ Devuelve un dato segun el query enviado como parametro
+ </summary>
+	<param name="query">Query para obtener dato</param>
+	<param name="conexion">Conexion a la base de datos</param>
+	<returns>Dato</returns>
+	<remarks>Se maneja internamente el estado de la conexion para optimizarla</remarks>
+</member><member name="M:LibForms.FuncionesForms.DevuelveFila(System.String,MySql.Data.MySqlClient.MySqlConnection)">
+	<summary>
+ Devuelve la primera fila de la base de datos segun el query enviado como parametro
+ </summary>
+	<param name="squery">Query para sacar datos</param>
+	<param name="conexion">Conexion a la base de datos</param>
+	<returns>Datarow con los datos</returns>
+	<remarks>Se maneja internamente el estado de la conexion para optimizarla, solo se devuelve la primera fila</remarks>
+</member><member name="M:LibForms.FuncionesForms.EjecutaComandosql(System.String,MySql.Data.MySqlClient.MySqlConnection)">
+	<summary>
+ Ejecuta un query SQL enviado como parametro
+ </summary>
+	<param name="squery">Query a ejecutar</param>
+	<param name="conexion">Conexion a la base de datos</param>
+	<returns>Numero de filas afectadas</returns>
+	<remarks>Se maneja internamente el estado de la conexion para optimizarla</remarks>
+</member><member name="M:LibForms.FuncionesForms.ExportarXls(System.Data.DataTable,System.String)">
+	<summary>
+ Exporta el datatable pasado como parametros a un archivo de texto separado por tabuladores 
+ para que sea entendido por excel como una hoja de calculo
+ </summary>
+	<param name="dtabledatos">DataTable con datos a exportar</param>
+	<param name="snombrearchivo">Direccion y nombre del archivo a exportar</param>
+	<remarks>Se verficia si en el conjunto de datos existe una columna de UPC, para agregar 
+ el ' y asi evitar que convierta a numeros los codigos de los productos</remarks>
+</member><member name="M:LibForms.FuncionesForms.TxtLog(System.String,System.String)">
+	<summary>
+ Ingresa una linea de texto en el archivo especificado
+ </summary>
+	<param name="slinea">Linea a agregar al archivo</param>
+	<param name="snombrearchivo">Ruta y nombre del archivo</param>
+</member><member name="M:LibForms.FuncionesForms.DesencriptarCadena(System.String)">
+	<summary>
+ Desencripta la cadena enviada como parametro
+ </summary>
+	<param name="scadena">Cadena a convertir</param>
+	<returns>Cadena desencriptada</returns>
+	<remarks>El algoritmo de desencriptacion convierte cada numero de tres digitos en el codigo ASCII correspondiente</remarks>
+</member><member name="F:LibForms.ComboboxEx._Enabled">
+	<summary>
+ Private backing field for the shadowed enabled property
+ </summary>
+</member><member name="F:LibForms.ComboboxEx._enabledBackcolor">
+	<summary>
+ BackColor of control when it is enabled
+ </summary>
+</member><member name="F:LibForms.ComboboxEx._disabledBackColor">
+	<summary>
+ BackColor of a control when it is disabled
+ </summary>
+	<remarks></remarks>
+</member><member name="P:LibForms.ComboboxEx.Enabled">
+	<summary>
+ Gets or Sets the value indicating if this control is enabled
+ </summary>
+	<value>Boolean</value>
+	<returns>True of control is enabled, otherwise false</returns>
+	<remarks>This property shadows the ComboBox base class enabled property</remarks>
+</member><member name="P:LibForms.ComboboxEx.DisabledBackColor">
+	<summary>
+ Gets or Sets the BackColor of the control when it is disabled
+ </summary>
+	<value>Color Structure</value>
+</member><member name="P:LibForms.ComboboxEx.BackColor">
+	<summary>
+ Gets or Sets the BackColor of the control when it is enabled
+ </summary>
+	<value>Color Structure</value>
+	<remarks>Shadows the base class BackColor property</remarks>
+</member><member name="M:LibForms.ComboboxEx.OnEnabledChanged(System.EventArgs)">
+	<summary>
+ When the shadowed enabled property changes, this method is called
+ </summary>
+</member><member name="M:LibForms.LibwineventsH.TxtmontoKeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+ Handler para el envento KeyPress que permite la funcionalidad de limitar el ingreso de caracteres
+ solo a numeros y el punto decimal (.)
+ </summary>
+	<remarks>Se valida que solo se ingresen dos caracteres despues del punto decimal (.),
+ tambien se valida que solo se ingrese un punto decimal (.)</remarks>
+</member><member name="M:LibForms.LibwineventsH.TxtnumeroKeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+ Handler para el evento KeyPress que permite la funcionalidad de limitar el ingreso de caracteres 
+ solo a numeros 
+ </summary>
+	<remarks>No se permite el ingreso del punto decimal (.)</remarks>
+</member><member name="M:LibForms.LibwineventsH.TxtmontoKeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Handler para el evento Keydown que permite la funcionalidad de pasar o regresar el foco a otro control,
+ Ademas formatea el texto a numero con separador de miles y dos decimales
+ </summary>
+	<remarks>Las teclas que valida para pasar al control siguiente es Enter, Abajo, Escape;
+ La tecla que se valida para regresar al control anterior es Arriba</remarks>
+</member><member name="M:LibForms.LibwineventsH.TxtKeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Handler para el evento KeyDown que permite la funcionalidad de pasar o regresar el foco a otro control
+ </summary>
+	<remarks>Las teclas que valida para pasar al control siguiente es Enter, Abajo, Escape;
+ La tecla que se valida para regresar al control anterior es Arriba</remarks>
+</member><member name="M:LibForms.LibwineventsH.TxtmontoLostFocus(System.Object,System.EventArgs)">
+	<summary>
+ Handler para el evento LostFocus que permite la formatear y validar el ingreso correcto al textbox
+ </summary>
+	<remarks>Se ingresa el valor 0.00 si no tiene ningun dato el textbox o solo tiene un . (punto)</remarks>
+</member>
+</members>
+</doc>

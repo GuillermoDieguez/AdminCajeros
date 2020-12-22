@@ -1,0 +1,96 @@
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\bin\Debug\admincajeros.exe
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\bin\Debug\admincajeros.pdb
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\bin\Debug\admincajeros.xml
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\bin\Debug\LibForms.dll
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\bin\Debug\MySql.Data.dll
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\bin\Debug\LibForms.pdb
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\bin\Debug\LibForms.xml
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmgiftcard.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmautorizacion.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmcorte.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmlogin.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmmenu.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmdeposito.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmmodificarfp.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmreportes.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmvisorreportes.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmretiro.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmmodificarretiro.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.Resources.resources
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\operacionescajero.vbproj.GenerateResource.Cache
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.exe
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.xml
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.pdb
+C:\Users\Dflores\Documents\Visual Studio 2008\Projects\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmreportegift.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.exe
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.xml
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.pdb
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\bin\Debug\admincajeros.exe
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\bin\Debug\admincajeros.pdb
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\bin\Debug\admincajeros.xml
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\bin\Debug\LibForms.pdb
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\bin\Debug\LibForms.xml
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\ResolveAssemblyReference.cache
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmgiftcard.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmreportegift.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmautorizacion.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmcorte.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmlogin.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmmenu.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmdeposito.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmmodificarfp.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmreportes.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.frmvisorreportes.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmretiro.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.Frmmodificarretiro.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\admincajeros.Resources.resources
+E:\TMP\F24OPERACIONESCAJERO\operacionescajero\operacionescajero\obj\Debug\operacionescajero.vbproj.GenerateResource.Cache
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.exe
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.xml
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.pdb
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\bin\Debug\admincajeros.exe
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\bin\Debug\admincajeros.pdb
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\bin\Debug\admincajeros.xml
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\bin\Debug\LibForms.pdb
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\bin\Debug\LibForms.xml
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.frmgiftcard.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.frmreportegift.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.frmautorizacion.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.frmcorte.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.Frmlogin.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.Frmmenu.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.Frmdeposito.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.Frmmodificarfp.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.frmreportes.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.frmvisorreportes.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.Frmretiro.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.Frmmodificarretiro.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.Resources.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\operacionescajero.vbproj.GenerateResource.Cache
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\operacionescajero\obj\Debug\admincajeros.frmReporteCajero.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.exe
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.xml
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.pdb
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\bin\Debug\admincajeros.exe
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\bin\Debug\admincajeros.pdb
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\bin\Debug\admincajeros.xml
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\bin\Debug\LibForms.pdb
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\bin\Debug\LibForms.xml
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.frmgiftcard.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.frmReporteCajero.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.frmreportegift.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.frmautorizacion.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.frmcorte.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.Frmlogin.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.Frmmenu.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.Frmdeposito.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.Frmmodificarfp.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.frmreportes.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.frmvisorreportes.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.Frmretiro.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.Frmmodificarretiro.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\admincajeros.Resources.resources
+C:\Users\kvasquez\OneDrive - Unisuper\Documentos\GitHub\AdminCajeros\codigo\operacionescajero\obj\Debug\operacionescajero.vbproj.GenerateResource.Cache

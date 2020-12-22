@@ -1,0 +1,246 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <notransaccionlocal>11</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>674</codigocajero>
+    <nombres>MARTIR AGUSTO</nombres>
+    <fechatransaccion>2013-11-25T11:31:38-06:00</fechatransaccion>
+    <notarjeta>69</notarjeta>
+    <tipotransaccion>6</tipotransaccion>
+    <tipotransaccion1>RECARGA</tipotransaccion1>
+    <monto>1.00</monto>
+    <montolamdpos>1.00</montolamdpos>
+    <diferenciaoperacion>1.00</diferenciaoperacion>
+    <mensajerespuesta>NO SE PUEDE OPERAR EL CODIGO(90)</mensajerespuesta>
+    <autorizacionrespuesta>0</autorizacionrespuesta>
+    <seriefactura>154</seriefactura>
+    <nofactura>32273</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>12</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>674</codigocajero>
+    <nombres>MARTIR AGUSTO</nombres>
+    <fechatransaccion>2013-11-25T11:31:38-06:00</fechatransaccion>
+    <notarjeta>69</notarjeta>
+    <tipotransaccion>6</tipotransaccion>
+    <tipotransaccion1>RECARGA</tipotransaccion1>
+    <monto>1.00</monto>
+    <montolamdpos>1.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>ACTIVACION DE GIFT CARD(90)</mensajerespuesta>
+    <autorizacionrespuesta>9342</autorizacionrespuesta>
+    <seriefactura>154</seriefactura>
+    <nofactura>32273</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>13</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>674</codigocajero>
+    <nombres>MARTIR AGUSTO</nombres>
+    <fechatransaccion>2013-11-25T12:01:00-06:00</fechatransaccion>
+    <notarjeta>70</notarjeta>
+    <tipotransaccion>6</tipotransaccion>
+    <tipotransaccion1>RECARGA</tipotransaccion1>
+    <monto>100.00</monto>
+    <montolamdpos>100.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>ACTIVACION DE GIFT CARD(90)</mensajerespuesta>
+    <autorizacionrespuesta>9345</autorizacionrespuesta>
+    <seriefactura>154</seriefactura>
+    <nofactura>32274</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>21</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>674</codigocajero>
+    <nombres>MARTIR AGUSTO</nombres>
+    <fechatransaccion>2013-11-25T12:16:10-06:00</fechatransaccion>
+    <notarjeta>70</notarjeta>
+    <tipotransaccion>6</tipotransaccion>
+    <tipotransaccion1>RECARGA</tipotransaccion1>
+    <monto>10.00</monto>
+    <montolamdpos>10.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>SE ACREDIT?? SALDO AL GC(90)</mensajerespuesta>
+    <autorizacionrespuesta>9362</autorizacionrespuesta>
+    <seriefactura>154</seriefactura>
+    <nofactura>32276</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>14</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>674</codigocajero>
+    <nombres>MARTIR AGUSTO</nombres>
+    <fechatransaccion>2013-11-25T12:03:23-06:00</fechatransaccion>
+    <notarjeta>70</notarjeta>
+    <tipotransaccion>7</tipotransaccion>
+    <tipotransaccion1>CONSUMO</tipotransaccion1>
+    <monto>12.15</monto>
+    <montolamdpos>12.15</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>SE DEBIT?? SALDO DEL GC(90)</mensajerespuesta>
+    <autorizacionrespuesta>9347</autorizacionrespuesta>
+    <seriefactura>154</seriefactura>
+    <nofactura>32275</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>6</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T08:53:38-06:00</fechatransaccion>
+    <notarjeta>69</notarjeta>
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta />
+    <autorizacionrespuesta>0</autorizacionrespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>7</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T08:54:09-06:00</fechatransaccion>
+    <notarjeta>10</notarjeta>
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>No se ha podido establecer conexión ya que el equipo de destino ha denegado activamente dicha conex</mensajerespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>8</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T08:57:07-06:00</fechatransaccion>
+    <notarjeta>69</notarjeta>
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>No se ha podido establecer conexión ya que el equipo de destino ha denegado activamente dicha conex</mensajerespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>9</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T09:02:01-06:00</fechatransaccion>
+    <notarjeta>69</notarjeta>
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta />
+    <autorizacionrespuesta>0</autorizacionrespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>10</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T11:29:25-06:00</fechatransaccion>
+    <notarjeta>69</notarjeta>
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>NO SE PUEDE OPERAR EL CODIGO(90)</mensajerespuesta>
+    <autorizacionrespuesta>0</autorizacionrespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>15</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T12:06:45-06:00</fechatransaccion>
+    <notarjeta>70</notarjeta>
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>CONSULTA DE SALDO(90)</mensajerespuesta>
+    <autorizacionrespuesta>9349</autorizacionrespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>16</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T12:08:51-06:00</fechatransaccion>
+    <notarjeta />
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>CONSULTA DE SALDO(90)</mensajerespuesta>
+    <autorizacionrespuesta>9350</autorizacionrespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>17</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T12:09:51-06:00</fechatransaccion>
+    <notarjeta />
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>CONSULTA DE SALDO(90)</mensajerespuesta>
+    <autorizacionrespuesta>9352</autorizacionrespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>19</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T12:11:27-06:00</fechatransaccion>
+    <notarjeta>69</notarjeta>
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>CONSULTA DE SALDO(90)</mensajerespuesta>
+    <autorizacionrespuesta>9356</autorizacionrespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+  <Table>
+    <notransaccionlocal>20</notransaccionlocal>
+    <nocaja>11</nocaja>
+    <codigocajero>0</codigocajero>
+    <fechatransaccion>2013-11-25T12:12:48-06:00</fechatransaccion>
+    <notarjeta />
+    <tipotransaccion>8</tipotransaccion>
+    <tipotransaccion1>CONSULTA SALDO</tipotransaccion1>
+    <monto>0.00</monto>
+    <montolamdpos>0.00</montolamdpos>
+    <diferenciaoperacion>0.00</diferenciaoperacion>
+    <mensajerespuesta>CONSULTA DE SALDO(90)</mensajerespuesta>
+    <autorizacionrespuesta>9357</autorizacionrespuesta>
+    <seriefactura />
+    <nofactura>0</nofactura>
+  </Table>
+</NewDataSet>
